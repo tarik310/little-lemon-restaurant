@@ -33,10 +33,10 @@ export default function Footer() {
       <div>
         <div className="footer-links-container">
           <h4>Media</h4>
-          <Link className="footer-block" href="https://www.facebook.com">
+          <Link className="footer-block" href="#">
             Facebook
           </Link>
-          <Link className="footer-block" href="" target="_blank" rel="noreferrer">
+          <Link className="footer-block" href="#">
             Instagram
           </Link>
         </div>
