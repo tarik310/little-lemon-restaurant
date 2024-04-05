@@ -423,3 +423,42 @@ header .nav-link-container {
     padding: 10px 35px;
   }
 }
+/**************************reserve form********************/
+.reserve-page-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.reserve-form-container {
+  background-color: var(--grey-4);
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--main-yellow);
+}
+.reserve-input-field {
+  width: 100%;
+}
+.reserve-input-field > input,
+.reserve-input-field > select {
+  width: 100%;
+  padding: 3px;
+  border-radius: 3px;
+  border: none;
+  border: 1px solid var(--grey-3);
+}
+
+.reserve-input-field > input:focus,
+.reserve-input-field > select:focus {
+  outline: none;
+  border: 1px solid var(--main-yellow);
+}
+.reserve-label-input {
+  margin: 0.5rem 0;
+}

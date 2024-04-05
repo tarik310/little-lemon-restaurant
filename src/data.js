@@ -31,7 +31,7 @@ const menu = [
   },
   {
     type: "main",
-    name: "Chicken breast and spinach roulades in cheese sauce",
+    name: "Chicken breast and roulades",
     image: main1,
     price: "$10.99",
   },
